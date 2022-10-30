@@ -4,11 +4,7 @@ import smtplib                          #COMANDOS ENVIO
 
 #FUNCION IMPRIMIR CREDITOS AL PROGRAMADOR
 def printCodeMaster():
-
-    RED = '\033[31m'
-    RESET = '\033[39m'
-
-    print(RED + "\n EMAIL-SEND BY MAURO PEPA. V0.2"+ "\n--------------------------------" + RESET)
+    print("\n SPAMER-BOT BY MAURO PEPA. V0.2"+ "\n--------------------------------")
 
 #FUNCION ADD TARGET EMAILS USERS
 def targetUser():
@@ -17,7 +13,7 @@ def targetUser():
     email_list = []
     name = None
 
-    print("PRESS X TO FINISH AND SEND EMAILS")
+    print("\nPRESS X TO FINISH AND SEND EMAILS")
     while name != "x":
 
         name = input("\nNombre usuario: ")
